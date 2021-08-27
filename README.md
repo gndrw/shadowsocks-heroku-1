@@ -11,7 +11,7 @@ Variable | Default value | Description
 `SS_PASSWORD` | `freedom_is_not_free` | shadowsocks password
 `SS_ENCRYPT` | `chacha20-ietf-poly1305` | shadowsocks encrypt method
 `SS_PLUGIN` | `xray-plugin` | shadowsocks sip003 plugin
-`SS_PLUGIN_OPTS` | `server;fast-open` | shadowsocks sip003 plugin options
+`SS_PLUGIN_OPTS` | `server;fast-open;path=/ws` | shadowsocks sip003 plugin options
 
 ### One-click deployment
 
@@ -47,7 +47,7 @@ obfs=http;obfs-host=appname.herokuapp.com;fast-open
 # v2ray-plugin/xray-plugin -> 443
 #
 # server
-server;fast-open
+server;fast-open;path=/ws
 # client
 tls;fast-open;host=appname.herokuapp.com;mux=5;loglevel=none
 
