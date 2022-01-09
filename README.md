@@ -15,7 +15,7 @@ Variable | Default value | Description
 
 ### One-click deployment
 
-[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pexcn/shadowsocks-heroku)
+[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gndrw/shadowsocks-heroku)
 
 ### Manually deployment
 
